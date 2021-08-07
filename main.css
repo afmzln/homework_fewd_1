@@ -1,1 +1,56 @@
-hello
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header h1 {
+    color: yellow;
+    padding: 10px;
+    margin: 0;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.top_section {
+    background-color: grey;
+    padding: 2px;
+}
+
+.top_section h3 {
+    text-align: center;
+}
+
+.banner {
+    background-image: url("software.png");
+    background-size: cover;
+    height: 250px;
+    padding: 50px 0;
+}
+
+div .top_banner {
+    background-color: white;
+    width: 20%;
+    height: 80%;
+    margin: 10px auto;
+    padding: 20px 50px;
+}
+
+.bottom_content .item {
+    box-shadow: -1px 5px 5px rgb(96, 96, 96);
+    padding: 20px;
+}
